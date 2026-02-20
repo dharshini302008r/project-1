@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dharshini | Profile</title>
+
+    <!-- Google Font -->
+    <link href="style.css" rel="stylesheet">
+
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #282842);
+            color: #fff;
+        }
+
+        /* Full-screen first page */
+        .first-page {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Vertical center */
+            align-items: center;     /* Horizontal center */
+            text-align: center;
+        }
+
+        .first-page h1 {
+            font-size: 80px;
+            color: #00ffff;
+            margin-bottom: 20px;
+        }
+
+        .first-page h2 {
+            font-size: 48px;
+            color: #fff;
+        }
+
+        /* Content sections below first page */
+        .content {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h2.section-title {
+            font-size: 22px;
+            border-bottom: 2px solid #fff;
+            display: inline-block;
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+        }
+
+        p, li {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 40px;
+        }
+
+        .contact p {
+            margin-bottom: 12px;
+        }
+
+        .contact span {
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .first-page h1 {
+                font-size: 60px;
+            }
+
+            .first-page h2 {
+                font-size: 36px;
+            }
+
+            h2.section-title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Full-screen first page -->
+<div class="first-page">
+    <h1>Hello</h1>
+    <h2>Dharshini</h2>
+</div>
+
+<!-- Scrollable content below -->
+<div class="content">
+    <!-- About Me -->
+
+    
+    <h2 class="section-title">About Me</h2>
+
+
+
+
+    <p>
+        I am Dharshini, a dedicated student with a strong interest in web development.
+        I enjoy creating clean, professional, and responsive web pages using HTML and CSS.
+    </p>
+
+
+
+
+    <!-- Skills -->
+    <h2 class="section-title">Skills</h2>
+    <ul>
+        <li>HTML5 and CSS3</li>
+        <li>Basic JavaScript</li>
+        <li>Python Fundamentals</li>
+        <li>Responsive Web Design</li>
+    </ul>
+
+    <!-- Education -->
+    <h2 class="section-title">Education</h2>
+    <p>
+        Currently pursuing studies with a focus on computer science and web technologies.
+    </p>
+
+    <!-- Contact -->
+    <h2 class="section-title">Contact Information</h2>
+    <div class="contact">
+        <p><span>Email:</span> dharshini@gmail.com</p>
+        <p><span>Phone:</span> +91 98765 43210</p>
+        <p><span>Location:</span> India</p>
+    </div>
+</div>
+/* Center the heading only */
+.section h2 {
+    text-align: center; /* Only the heading is centered */
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph stays left-aligned */
+.section p {
+    text-align: left; /* Keeps the content readable */
+    margin: 0 auto 20px auto;
+    max-width: 900px; /* Optional: limits the width */
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+</body>
+</html>
